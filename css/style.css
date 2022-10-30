@@ -50,7 +50,6 @@ main {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
 }
 
 .header {
@@ -149,7 +148,7 @@ main {
 }
 
 .main__figure {
-    height: calc(100vh - 10000px);
+    height: calc(100vh - 560px);
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-end;
