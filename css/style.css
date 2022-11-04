@@ -95,15 +95,7 @@ a:hover {
 
 .nav-right {
   font-size: 13px;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
   /* padding: 0 4px; */
-}
-
-.nav-right__ul:first-child {
-  /* padding-right: 15px; */
 }
 
 .nav-right__ul {
@@ -123,8 +115,8 @@ a:hover {
   fill: var(--HEADER-SVG-COLOR);
 }
 
-.menu-svg:hover {
-  background-color: var(--MAIN-BUTTON-BGCOLOR);
+.gb_Ve:hover {
+  background-color: #515151;
   border-radius: 50%;
 }
 
@@ -175,7 +167,7 @@ a:hover {
   /* width: 582px; */
   /* flex-grow: 1; */
   padding: 10px;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 22px;
 }
@@ -242,7 +234,6 @@ a:hover {
 
 .main__a {
   color: var(--MAIN-LANGUAGE-LINKCOLOR);
-  padding: 0 5px;
 }
 
 .footer {
@@ -262,8 +253,7 @@ a:hover {
 .footer__navs {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
-  padding: 0 20px;
+  justify-content: space-evenly;
 }
 
 .footer__top {
@@ -272,18 +262,9 @@ a:hover {
   padding: 15px 30px;
 }
 
-.footer__left-nav-ul,
-.footer__right-nav-ul {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  /* background-color: red; */
-
-}
-
 .footer__left-nav-li,
 .footer__right-nav-li {
-  padding: 15px;
+  padding: 13px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -293,16 +274,16 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   .footer__navs {
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
- /* .footer__left-nav {
+  .footer__left-nav {
     margin-left: 30px;
-  } 
+  }
 
   .footer__right-nav {
     margin-right: 30px;
-  } */
+  }
 }
